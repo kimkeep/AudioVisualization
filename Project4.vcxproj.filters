@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\visual">
+      <UniqueIdentifier>{d2033cec-f2fe-4594-a5ad-a33434c71618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\visual">
+      <UniqueIdentifier>{40948290-7ed3-49c5-921e-b3ba2cc673af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Recorder.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fft.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Spectrogram.cpp">
+      <Filter>소스 파일\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="Oscilloscope.cpp">
+      <Filter>소스 파일\visual</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Recorder.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AllInOne.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="fft.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Oscilloscope.h">
+      <Filter>헤더 파일\visual</Filter>
+    </ClInclude>
+    <ClInclude Include="Spectrogram.h">
+      <Filter>헤더 파일\visual</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="AudioFiles\100hz.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\200hz.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\342hz.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\50hz.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\1khz.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\630hz.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\2000hz.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\birds.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\bleeps.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\chirp.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\ConsciousnessAI_Musk.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\Sacrificial_Rezz_Intro.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\SAINtJHN_AllAroundTheRoses_Intro.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\snare.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\beep.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\cowbell1.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\hurt.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\kick.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\20to20khz.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\alarm1.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\drumloop2.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\drumloop3.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\hat.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="AudioFiles\drumloop1.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
